@@ -1,0 +1,19 @@
+.banner {
+  height: 100vh;
+  background: url("https://i.picsum.photos/id/101/2621/1747.jpg?hmac=cu15YGotS0gIYdBbR1he5NtBLZAAY6aIY5AbORRAngs");
+  background-size: 100%;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-elements h3 {
+  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}

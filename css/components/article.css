@@ -1,0 +1,46 @@
+
+.container-article {
+  width: 70vw;
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+}
+
+.content-article h2{
+  color: rgb(160, 160, 160);
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+.content-article p {
+  color: rgb(76, 76, 76);
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
